@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style> -->
+</head>
+
+<body>
+    <h1>India</h1>
+
+    <div>
+        <h1>
+            <!-- data <%= locals.name%> -->
+            <!-- data <%= locals.namesd%> not give the error here -->
+            data <%= locals.name %>
+        </h1>
+    </div>
+    <br>
+    <div>
+        <form action="/home" method="post">
+            <h1>Name</h1>
+            <input type="text" name="name" >
+            <h1>Email</h1>
+            <input type="text" name="email" >
+            <br>
+            <!-- make sure write in the button in the type ="submit" submit only to send redirect here -->
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <!-- <button type="button">submit</button> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
